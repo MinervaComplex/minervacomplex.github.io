@@ -1,0 +1,10 @@
+<div>
+<div>
+  <button mat-raised-button (click)="toggleView('cute')">Cute</button>
+  <button mat-raised-button (click)="toggleView('slut')">Slut</button>
+</div>
+<div>
+  <img width="300" alt="Faye Regan" *ngIf="purity==='cute'" src="https://i.redd.it/ulz6ojd68vm21.jpg">
+  <img width="300" alt="Faye Regan" *ngIf="purity==='slut'" src="http://i.imgur.com/8CfyS.jpg">
+</div>
+</div>
